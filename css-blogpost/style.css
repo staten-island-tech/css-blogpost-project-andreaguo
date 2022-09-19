@@ -1,0 +1,173 @@
+.blogpost {
+    text-align: center;
+    color: beige;
+}
+
+.feed {
+    margin-left: 50px;
+    color: beige;
+    margin-bottom: 0px;
+}
+
+.name {
+    margin-top: 0px;
+    margin-left: 50px;
+    color: beige;
+}
+
+.parent {
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 25%;
+    background-color: beige;
+    color: darkslategray;
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.dateone {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.imageone {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    height: 210px;
+    width: 375px;
+    transform: translate(-50%, -50%);
+
+}
+
+.linkone {
+    position: absolute;
+    border-radius: 15px;
+    border: 2px solid darkslategray;
+    color: darkslategray;
+    bottom: 5px;
+    right: 30px;
+    padding: 5px;
+}
+
+.titleone {
+    position: absolute;
+    color: black;
+    top: 100px;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.parent2 {
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 25%;
+    background-color: beige;
+    color: darkslategray;
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.datetwo {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.imagetwo {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    height: 210px;
+    width: 375px;
+    transform: translate(-50%, -50%);
+}
+
+.linktwo {
+    position: absolute;
+    border-radius: 15px;
+    border: 2px solid darkslategray;
+    color: darkslategray;
+    bottom: 5px;
+    right: 30px;
+    padding: 5px;
+}
+
+.titletwo {
+    position: absolute;
+    color: black;
+    top: 100px;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.parent3 {
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 25%;
+    background-color: beige;
+    color: darkslategray;
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.datethree {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.imagethree {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    height: 210px;
+    width: 375px;
+    transform: translate(-50%, -50%);
+}
+
+.linkthree {
+    position: absolute;
+    border-radius: 15px;
+    border: 2px solid darkslategray;
+    color: darkslategray;
+    bottom: 5px;
+    right: 30px;
+    padding: 5px;
+}
+
+.titlethree {
+    position: absolute;
+    color: black;
+    top: 100px;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'DM Serif Display', serif;
+    background-image: url(beach.jpg);
+    background-position: center;
+    height: 300vh;
+}
+
+/*
+- padding is the difference between the center of an element and its border
+- margin is the difference between the border and the next element
+*/

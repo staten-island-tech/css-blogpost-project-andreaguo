@@ -9,109 +9,8 @@
     margin-bottom: 0px;
 }
 
-.name {
-    margin-top: 0px;
-    margin-left: 50px;
-    color: beige;
-}
-
-.parent {
-    border-radius: 15px;
-    margin-top: 50px;
-    margin-left: 25%;
-    background-color: beige;
-    color: darkslategray;
-    height: 600px;
-    width: 50%;
-    text-align: center;
-    position: relative;
-}
-
-.dateone {
-    position: absolute;
-    top: 5%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-}
-
-.imageone {
-    position: absolute;
-    top: 250px;
-    left: 40%;
-    height: 210px;
-    width: 375px;
-    transform: translate(-50%, -50%);
-
-}
-
-.linkone {
-    position: absolute;
-    border-radius: 15px;
-    border: 2px solid darkslategray;
-    color: darkslategray;
-    bottom: 5px;
-    right: 30px;
-    padding: 5px;
-}
-
-.titleone {
-    position: absolute;
-    color: black;
-    top: 100px;
-    left: 31%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 0px;
-    padding: 0px;
-}
-
-.parent2 {
-    border-radius: 15px;
-    margin-top: 50px;
-    margin-left: 25%;
-    background-color: beige;
-    color: darkslategray;
-    height: 600px;
-    width: 50%;
-    text-align: center;
-    position: relative;
-}
-
-.datetwo {
-    position: absolute;
-    top: 5%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-}
-
-.imagetwo {
-    position: absolute;
-    top: 250px;
-    left: 40%;
-    height: 210px;
-    width: 375px;
-    transform: translate(-50%, -50%);
-}
-
-.linktwo {
-    position: absolute;
-    border-radius: 15px;
-    border: 2px solid darkslategray;
-    color: darkslategray;
-    bottom: 5px;
-    right: 30px;
-    padding: 5px;
-}
-
-.titletwo {
-    position: absolute;
-    color: black;
-    top: 100px;
-    left: 26%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 0px;
-    padding: 0px;
-}
-
+.parent,
+.parent2,
 .parent3 {
     border-radius: 15px;
     margin-top: 50px;
@@ -124,6 +23,8 @@
     position: relative;
 }
 
+.dateone,
+.datetwo,
 .datethree {
     position: absolute;
     top: 5%;
@@ -131,6 +32,8 @@
     transform: translate(-50%, -50%);
 }
 
+.imageone,
+.imagetwo,
 .imagethree {
     position: absolute;
     top: 250px;
@@ -140,6 +43,8 @@
     transform: translate(-50%, -50%);
 }
 
+.linkone,
+.linktwo,
 .linkthree {
     position: absolute;
     border-radius: 15px;
@@ -150,21 +55,45 @@
     padding: 5px;
 }
 
+.titleone,
+.titletwo,
 .titlethree {
     position: absolute;
-    color: black;
+    color: darkslategray;
     top: 100px;
-    left: 30%;
+    left: 31%;
     transform: translate(-50%, -50%);
-    margin-bottom: 0px;
-    padding: 0px;
+}
+
+.midnight {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    width: 45vw;
+    transform: translate(-50%, -50%);
+}
+
+.AMA {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    width: 45vw;
+    transform: translate(-50%, -50%);
+}
+
+.birthday {
+    position: absolute;
+    top: 77%;
+    left: 40%;
+    width: 45vw;
+    transform: translate(-50%, -50%);
 }
 
 body {
     font-family: 'DM Serif Display', serif;
     background-image: url(beach.jpg);
     background-position: center;
-    height: 300vh;
+    height: 250vh;
 }
 
 /*

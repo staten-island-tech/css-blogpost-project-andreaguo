@@ -4,39 +4,36 @@
     text-align: center;
     color: beige;
     padding: 5px;
-    margin-top: 3%; 
+    margin-top: 3%;
     margin-left: 30%;
     margin-right: 30%;
 
 }
+
 .parent,
 .parent2,
 .parent3 {
     border-radius: 15px;
-    margin-top: 60px;
-    margin-left: 25%;
     background-color: beige;
+    text-align: center;
     color: darkslategray;
+    margin-top: 5%;
+    margin-left: 25%;
     height: 600px;
     width: 50%;
-    text-align: center;
-    position: relative;
     margin-bottom: 3%;
 }
 
 .dateone,
 .datetwo,
 .datethree {
-    position: absolute;
     top: 5%;
-    left: 90%;
-    transform: translate(-50%, -50%);
+    margin-left: 80%;
 }
 
 .imageone,
 .imagetwo,
 .imagethree {
-    position: absolute;
     top: 250px;
     left: 40%;
     height: 210px;
@@ -47,27 +44,26 @@
 .linkone,
 .linktwo,
 .linkthree {
-    position: absolute;
     border-radius: 15px;
     border: 2px solid darkslategray;
     color: darkslategray;
-    bottom: 5px;
-    right: 30px;
-    padding: 5px;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 10%;
 }
 
 .titleone,
 .titletwo,
 .titlethree {
-    position: absolute;
     color: darkslategray;
     top: 100px;
     left: 31%;
     transform: translate(-50%, -50%);
 }
 
-.midnight,.AMA,.birthday{
-    position: absolute;
+.midnight,
+.AMA,
+.birthday {
     top: 75%;
     left: 40%;
     width: 45vw;

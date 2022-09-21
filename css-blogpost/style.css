@@ -1,19 +1,19 @@
-.blogpost {
+.parent0 {
+    border-radius: 15px;
+    border: 2px solid beige;
     text-align: center;
     color: beige;
-}
+    padding: 5px;
+    margin-top: 3%; 
+    margin-left: 30%;
+    margin-right: 30%;
 
-.feed {
-    margin-left: 50px;
-    color: beige;
-    margin-bottom: 0px;
 }
-
 .parent,
 .parent2,
 .parent3 {
     border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 25%;
     background-color: beige;
     color: darkslategray;
@@ -21,6 +21,7 @@
     width: 50%;
     text-align: center;
     position: relative;
+    margin-bottom: 3%;
 }
 
 .dateone,
@@ -65,25 +66,9 @@
     transform: translate(-50%, -50%);
 }
 
-.midnight {
+.midnight,.AMA,.birthday{
     position: absolute;
     top: 75%;
-    left: 40%;
-    width: 45vw;
-    transform: translate(-50%, -50%);
-}
-
-.AMA {
-    position: absolute;
-    top: 75%;
-    left: 40%;
-    width: 45vw;
-    transform: translate(-50%, -50%);
-}
-
-.birthday {
-    position: absolute;
-    top: 77%;
     left: 40%;
     width: 45vw;
     transform: translate(-50%, -50%);

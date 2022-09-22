@@ -27,18 +27,17 @@
 .dateone,
 .datetwo,
 .datethree {
-    top: 5%;
+    margin-top: 5%;
     margin-left: 80%;
+    padding: 3.3%;
 }
 
 .imageone,
 .imagetwo,
 .imagethree {
-    top: 250px;
-    left: 40%;
     height: 210px;
-    width: 375px;
-    transform: translate(-50%, -50%);
+    width: 360px;
+    border-radius: 15px;
 }
 
 .linkone,
@@ -46,35 +45,13 @@
 .linkthree {
     border-radius: 15px;
     border: 2px solid darkslategray;
-    color: darkslategray;
-    width: 30%;
-    margin-left: 35%;
-    margin-bottom: 10%;
+    padding: 2px;
 }
-
-.titleone,
-.titletwo,
-.titlethree {
-    color: darkslategray;
-    top: 100px;
-    left: 31%;
-    transform: translate(-50%, -50%);
-}
-
-.midnight,
-.AMA,
-.birthday {
-    top: 75%;
-    left: 40%;
-    width: 45vw;
-    transform: translate(-50%, -50%);
-}
-
 body {
     font-family: 'DM Serif Display', serif;
     background-image: url(beach.jpg);
     background-position: center;
-    height: 250vh;
+    height: 300vh;
 }
 
 /*

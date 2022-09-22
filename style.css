@@ -28,8 +28,9 @@
 .datetwo,
 .datethree {
     margin-top: 5%;
+    margin-bottom: 0%;
     margin-left: 80%;
-    padding: 3.3%;
+    padding: 2%;
 }
 
 .imageone,
@@ -47,6 +48,7 @@
     border: 2px solid darkslategray;
     padding: 2px;
 }
+
 body {
     font-family: 'DM Serif Display', serif;
     background-image: url(beach.jpg);

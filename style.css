@@ -15,7 +15,6 @@
 .parent3 {
     border-radius: 15px;
     background-color: beige;
-    text-align: center;
     color: darkslategray;
     margin-top: 5%;
     margin-left: 25%;
@@ -50,6 +49,7 @@
 }
 
 body {
+    text-align: center;
     font-family: 'DM Serif Display', serif;
     background-image: url(beach.jpg);
     background-position: center;
